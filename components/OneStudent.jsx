@@ -10,14 +10,13 @@ function OneStudent() {
         setOneStudent(student.data);
     }
 
-    // useEffect(() => { getAllStudents(); }, []); // Calling the function one time only
     useEffect(() => {
         getOneStudent(21);
     }, []);
 
     return (
         <>
-            <h1>All Students</h1>
+            <h1>One Student</h1>
             {  
                 <div key={ oneStudent.id }>
                     <h2>{ oneStudent.studentName }</h2>

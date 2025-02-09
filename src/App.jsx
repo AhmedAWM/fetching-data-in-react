@@ -5,6 +5,7 @@ import './App.css'
 import Students from '../components/Students'
 import Countries from '../components/Countries'
 import OneStudent from '../components/OneStudent'
+import OneCountry from '../components/OneCountry'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <>
       {/* <Students /> */}
       {/* <Countries /> */}
-      <OneStudent />
+      {/* <OneStudent /> */}
+      <OneCountry />
     </>
   )
 }
